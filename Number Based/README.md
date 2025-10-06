@@ -142,7 +142,6 @@ for i in range(n, 0, -1):   # rows decreasing
     print()
 ```
 
----
 
 ## ✅ Explanation
 
@@ -152,7 +151,6 @@ for i in range(n, 0, -1):   # rows decreasing
 4. Spaces → `" " * (n - i)` to align like a triangle.
 5. Each row prints `i` numbers, decreasing continuously.
 
----
 
 ## ✅ Output (n = 5)
 
@@ -167,7 +165,7 @@ for i in range(n, 0, -1):   # rows decreasing
 ---
 ## 5: Palindrome number pyramid
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Palindrome Number Pyramid
@@ -188,9 +186,8 @@ for i in range(1, n + 1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Spaces:** `" " * (n - i)` → makes pyramid shape.
 2. **Increasing part:** numbers `1 → i`.
@@ -199,7 +196,7 @@ for i in range(1, n + 1):
 
 ---
 
-## ✅ Output (n = 5)
+**✅ Output (n = 5)**
 
 ```
     1
@@ -210,7 +207,7 @@ for i in range(1, n + 1):
 ```
 
 ---
-## 6: Hollow number pyramid
+**6: Hollow number pyramid**
 
 ## ✅ Python Code
 
@@ -239,9 +236,8 @@ for i in range(1, n + 1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Spaces:** `" " * (n - i)` → shifts rows to form pyramid shape.
 2. **Left half:** prints numbers `1 → i`.
@@ -250,7 +246,6 @@ for i in range(1, n + 1):
    * Inside becomes spaces → hollow effect.
 3. **Right half:** mirrors numbers `i-1 → 1` with the same hollow logic.
 
----
 
 ## ✅ Output (n = 5)
 
@@ -265,7 +260,7 @@ for i in range(1, n + 1):
 ---
 ## 7: Diamond with continuous numbers
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Diamond with Continuous Numbers
@@ -289,9 +284,8 @@ for i in range(n - 1, 0, -1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Two halves:**
 
@@ -301,9 +295,8 @@ for i in range(n - 1, 0, -1):
 3. `num` keeps incrementing, so numbers are continuous across rows.
 4. Spaces (`"  " * (n - i)`) make the diamond symmetric.
 
----
 
-## ✅ Output (n = 5)
+**✅ Output (n = 5)**
 
 ```
         1
@@ -320,7 +313,7 @@ for i in range(n - 1, 0, -1):
 ---
 ## 8: Hourglass numbers
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Hourglass Number Pattern
@@ -355,9 +348,8 @@ for i in range(2, n + 1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Upper Half (Top to Middle):**
 
@@ -373,9 +365,8 @@ for i in range(2, n + 1):
 
 3. Together, they form an **hourglass shape** with numbers.
 
----
 
-## ✅ Output (n = 5)
+**✅ Output (n = 5)**
 
 ```
 1234554321
@@ -393,7 +384,7 @@ for i in range(2, n + 1):
 
 ## 9: Concentric square numbers
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Concentric Square Number Pattern
@@ -408,9 +399,8 @@ for i in range(size):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Grid size:** `2*n - 1` → square with odd side length.
 
@@ -422,9 +412,8 @@ for i in range(size):
    * Subtract that distance from `n` → gives the correct number for that cell.
 3. This ensures layers of decreasing numbers toward the center.
 
----
 
-## ✅ Output (n = 4)
+**✅ Output (n = 4)**
 
 ```
 4444444
@@ -439,7 +428,7 @@ for i in range(size):
 ---
 ## 10: Spiral numbers in square
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Spiral Numbers in Square
@@ -479,9 +468,8 @@ for row in matrix:
     print(" ".join(f"{x:2}" for x in row))
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. Create an `n x n` grid of zeros.
 2. Fill numbers in a **spiral manner**:
@@ -493,9 +481,8 @@ for row in matrix:
 3. Shrink boundaries (`top, bottom, left, right`) and repeat.
 4. Print with formatting for alignment (`f"{x:2}"`).
 
----
 
-## ✅ Output (n = 4)
+**✅ Output (n = 4)**
 
 ```
  1  2  3  4
@@ -507,7 +494,7 @@ for row in matrix:
 ---
 ## 11: Snake matrix numbers
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Snake Matrix Numbers
@@ -527,9 +514,8 @@ for i in range(1, n+1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Odd rows:**
 
@@ -543,9 +529,8 @@ for i in range(1, n+1):
 
 4. Formatting `f"{num:2}"` ensures proper spacing for alignment.
 
----
 
-## ✅ Output (n = 4)
+**✅ Output (n = 4)**
 
 ```
  1  2  3  4
@@ -557,7 +542,7 @@ for i in range(1, n+1):
 ---
 ## 12: Zig-zag numbers
 
-## ✅ Python Code
+**✅ Python Code**
 
 ```python
 # Zig-Zag Numbers Pattern
@@ -575,9 +560,8 @@ for i in range(1, rows+1):
     print()
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. **Rows and columns:**
 
@@ -592,14 +576,366 @@ for i in range(1, rows+1):
 
 4. **`num` variable:** keeps track of the next number.
 
----
 
-## ✅ Output (3 rows, 9 columns)
+**✅ Output (3 rows, 9 columns)**
 
 ```
     1       3       5
   2   4   6   8   10
 3       5       7       9
+```
+
+---
+## 13: Prime numbers triangle
+
+**✅ Python Code**
+
+```python
+# Prime Numbers Triangle
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num**0.5)+1):
+        if num % i == 0:
+            return False
+    return True
+
+n = 5
+num = 2  # first prime number
+
+for i in range(1, n+1):
+    count = 0
+    while count < i:
+        if is_prime(num):
+            print(num, end=" ")
+            count += 1
+        num += 1
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start with `num = 2` (first prime).
+2. For each row `i`:
+
+   * Print `i` prime numbers.
+   * Use a helper function `is_prime()` to check prime status.
+3. Keep incrementing `num` until required primes are printed.
+
+---
+
+**✅ Output (n = 5)**
+
+```
+2
+3 5
+7 11 13
+17 19 23 29
+31 37 41 43 47
+```
+
+---
+## 14: Fibonacci sequence triangle
+
+**✅ Python Code**
+
+```python
+# Fibonacci Sequence Triangle
+
+n = 5
+a, b = 0, 1   # first two Fibonacci numbers
+
+for i in range(1, n+1):
+    for j in range(i):
+        print(a, end=" ")
+        a, b = b, a + b   # update Fibonacci numbers
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start with `a=0, b=1`.
+2. Outer loop → number of rows (`n`).
+3. Inner loop → prints `i` Fibonacci numbers in row `i`.
+4. Update Fibonacci sequence using `a, b = b, a+b`.
+
+
+**✅ Output (n = 5)**
+
+```
+0
+1 1
+2 3 5
+8 13 21 34
+55 89 144 233 377
+```
+
+---
+
+## 15: Even numbers triangle
+
+**✅ Python Code**
+
+```python
+# Even Numbers Triangle
+
+n = 5
+num = 2   # start with the first even number
+
+for i in range(1, n+1):
+    for j in range(i):
+        print(num, end=" ")
+        num += 2   # move to next even number
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start from `num = 2` (first even number).
+2. Outer loop → number of rows (`n`).
+3. Inner loop → prints `i` even numbers in row `i`.
+4. After printing each number, increment by `2` to keep numbers even.
+
+
+**✅ Output (n = 5)**
+
+```
+2
+4 6
+8 10 12
+14 16 18 20
+22 24 26 28 30
+```
+
+---
+## 16: Odd numbers triangle
+
+**✅ Python Code**
+
+```python
+# Odd Numbers Triangle
+
+n = 5
+num = 1   # start with the first odd number
+
+for i in range(1, n+1):
+    for j in range(i):
+        print(num, end=" ")
+        num += 2   # move to next odd number
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start from `num = 1` (first odd number).
+2. Outer loop → rows (`n`).
+3. Inner loop → prints `i` odd numbers in row `i`.
+4. Increase `num` by 2 each time → always odd.
+
+
+**✅ Output (n = 5)**
+
+```
+1
+3 5
+7 9 11
+13 15 17 19
+21 23 25 27 29
+```
+
+---
+
+## 17: Pyramid of squares (1², 2², 3², …)
+
+**✅ Python Code**
+
+```python
+# Pyramid of Squares (1², 2², 3², ...)
+
+n = 5
+num = 1  # start from 1
+
+for i in range(1, n+1):
+    # print spaces for pyramid alignment
+    print(" " * (n - i) * 3, end="")  
+    
+    for j in range(i):
+        print(str(num**2).ljust(4), end="")  # print square with spacing
+        num += 1
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start with `num = 1`.
+2. Outer loop → rows (`n`).
+3. Print leading spaces so numbers form a **centered pyramid**.
+4. Inner loop → print `i` squares (`num²`) in row `i`.
+5. Increment `num` after each print.
+
+
+**✅ Output (n = 5)**
+
+```
+       1
+     4   9
+   16  25  36
+ 49  64  81 100
+121 144 169 196 225
+```
+
+---
+## 18: Pyramid of cubes (1³, 2³, 3³, …)
+
+**✅ Python Code**
+
+```python
+# Pyramid of Cubes (1³, 2³, 3³, ...)
+
+n = 5
+num = 1  # start from 1
+
+for i in range(1, n+1):
+    # print spaces for pyramid alignment
+    print(" " * (n - i) * 4, end="")  
+    
+    for j in range(i):
+        print(str(num**3).ljust(6), end="")  # print cube with spacing
+        num += 1
+    print()
+```
+
+
+**✅ Explanation**
+
+1. Start with `num = 1`.
+2. Outer loop → controls number of rows.
+3. Print spaces before each row to **center** the pyramid.
+4. Inner loop → prints cubes (`num³`) in row `i`.
+5. Increase `num` after each cube.
+6. Used `ljust(6)` to keep numbers aligned neatly.
+
+
+**✅ Output (n = 5)**
+
+```
+        1
+     8    27
+  64   125   216
+343   512   729  1000
+1331  1728  2197  2744  3375
+```
+
+---
+## 19: Multiplication table in grid form
+
+**✅ Python Code**
+
+```python
+# Multiplication Table in Grid Form
+
+n = 10
+
+# Print header row
+print("    ", end="")
+for i in range(1, n+1):
+    print(f"{i:4}", end="")
+print("\n" + "-" * (n*4 + 4))
+
+# Print table
+for i in range(1, n+1):
+    print(f"{i:2} |", end="")   # Row label
+    for j in range(1, n+1):
+        print(f"{i*j:4}", end="")
+    print()
+```
+
+
+**✅ Explanation**
+
+1. **Header row** → numbers `1…n`.
+2. **Separator line** → makes it look like a grid.
+3. Outer loop → rows (`i`).
+4. Inner loop → columns (`j`).
+5. Each cell = `i × j`.
+6. Formatting (`{num:4}`) ensures all numbers align properly.
+
+
+**✅ Output (n = 10)**
+
+```
+       1   2   3   4   5   6   7   8   9  10
+--------------------------------------------
+ 1 |    1   2   3   4   5   6   7   8   9  10
+ 2 |    2   4   6   8  10  12  14  16  18  20
+ 3 |    3   6   9  12  15  18  21  24  27  30
+ 4 |    4   8  12  16  20  24  28  32  36  40
+ 5 |    5  10  15  20  25  30  35  40  45  50
+ 6 |    6  12  18  24  30  36  42  48  54  60
+ 7 |    7  14  21  28  35  42  49  56  63  70
+ 8 |    8  16  24  32  40  48  56  64  72  80
+ 9 |    9  18  27  36  45  54  63  72  81  90
+10 |   10  20  30  40  50  60  70  80  90 100
+```
+
+---
+## 20: Pascal’s triangle with sums
+
+**✅ Python Code**
+
+```python
+# Pascal's Triangle with Row Sums
+
+def pascal_triangle(n):
+    triangle = [[1]]  # first row
+
+    # Build triangle
+    for i in range(1, n):
+        row = [1]  # first element is always 1
+        for j in range(1, i):
+            row.append(triangle[i-1][j-1] + triangle[i-1][j])  # sum of two above
+        row.append(1)  # last element is always 1
+        triangle.append(row)
+
+    # Print with sums
+    for i, row in enumerate(triangle, start=1):
+        print(" " * (n - i) * 3, end="")   # spacing for pyramid
+        for num in row:
+            print(f"{num:5}", end="")
+        print(f"   | Sum = {sum(row)}")
+
+# Example
+pascal_triangle(6)
+```
+
+---
+
+**✅ Explanation**
+
+1. Start with first row `[1]`.
+2. Each next row:
+
+   * Begin & end with `1`.
+   * Middle values = sum of two numbers from the row above.
+3. Row sum = `2^(row-1)`.
+4. Used formatting for clean pyramid shape.
+
+---
+
+**✅ Output (n = 6)**
+
+```
+                1      | Sum = 1
+             1     1   | Sum = 2
+          1     2     1   | Sum = 4
+       1     3     3     1   | Sum = 8
+    1     4     6     4     1   | Sum = 16
+ 1     5    10    10     5     1   | Sum = 32
 ```
 
 ---
