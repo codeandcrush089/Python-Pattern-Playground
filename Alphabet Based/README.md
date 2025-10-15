@@ -1,5 +1,3 @@
-<img width="1298" height="795" alt="image" src="https://github.com/user-attachments/assets/782c4eaf-c9ce-445f-b8b3-092acbab8838" />## 1: Alphabet triangle (A, B, C, …)
-
 **✅ Python Code**
 
 ```python
