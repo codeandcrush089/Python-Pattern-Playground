@@ -859,18 +859,16 @@ for row in matrix:
     print(' '.join(map(str, row)))
 ```
 
----
 
-## ✅ Explanation
+**✅ Explanation**
 
 1. Create an `n × n` matrix.
 2. Use **four boundaries** (`top`, `bottom`, `left`, `right`) to fill in a spiral (clockwise).
 3. Fill numbers `1 → n²` **mod m** to wrap values between `0 → m-1`.
 4. Increment `num` after each placement.
 
----
 
-## ✅ Output (n = 5, m = 3)
+**✅ Output (n = 5, m = 3)**
 
 ```
 1 2 0 1 2
