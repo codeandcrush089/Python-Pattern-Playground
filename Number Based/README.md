@@ -913,7 +913,6 @@ def pascal_triangle(n):
 pascal_triangle(6)
 ```
 
----
 
 **✅ Explanation**
 
@@ -925,7 +924,6 @@ pascal_triangle(6)
 3. Row sum = `2^(row-1)`.
 4. Used formatting for clean pyramid shape.
 
----
 
 **✅ Output (n = 6)**
 
