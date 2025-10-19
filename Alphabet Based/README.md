@@ -1,3 +1,5 @@
+## 1: Alphabet triangle (A, B, C, …)
+
 **✅ Python Code**
 
 ```python
@@ -706,7 +708,6 @@ for i in range(n):
 3. Extra spaces before each row center-align the triangle.
 4. After ‘Z’, letters loop back to ‘A’.
 
----
 
 **✅ Output (n = 6)**
 
