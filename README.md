@@ -32,11 +32,12 @@ If you like this repository, **please ⭐ star and follow** for more Python codi
 Your support keeps the motivation alive! 💪
 
 ---
+<div align="center">
+<h2> 📝 How I Function? </h2>
+ <b>Sippin कड़क chai  </b><br>
+ <b>to work hard!</b>
 
-## 📝 How I Function?
-**Sippin’ कड़क chai  
-to work hard!**
+  <br>Happy Coding! 🐍
+</div>
 
----
 
-Happy Coding! 🐍
